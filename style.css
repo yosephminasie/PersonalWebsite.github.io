@@ -6,6 +6,13 @@ body {
   
 }
 
+html, body {
+  margin: 0; 
+  height: 100%; 
+  overflow-y: hidden;
+  overflow-x:auto;
+}
+
 #aboutme:after {
   content: "";
   background: url(pictures/self5.jpg);
@@ -115,9 +122,6 @@ h4 {
     height: 1em;
 }
 
-.server {
-  margin-top: 2%;
-}
 
 nav {
   background-color: DarkCyan;
