@@ -6,45 +6,117 @@ body {
   
 }
 
-body:after {
-content: "";
-background: url(pictures/self5.jpg);
-opacity: 0.2;
-top: 0;
-left: 0;
-bottom: 0;
-right: 0;
-position: absolute;
-z-index: -1; 
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+#aboutme:after {
+  content: "";
+  background: url(pictures/self5.jpg);
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+#education:after {
+  content: "";
+  background: url(pictures/vt.jpg);
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#experience:after {
+  content: "";
+  background: url(pictures/background3.jpg);
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#skills:after {
+  content: "";
+  background: url(pictures/background5.jpg);
+  opacity: 0.04;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#contact:after {
+  content: "";
+  background: url(pictures/magnify.jpg);
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
 
 h1 {
   font-size: 2.5em;
   text-align: center;
-  margin-top: 75px;
+  margin-top: 1em;
   margin-left: 22%
 }
 h2 {
   font-size: 2.5em;
   text-align: center;
-  margin-top: 75px;
+  margin-top: 1em;
 }
 h3 {
   font-size: 1.5em;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 1em;
 }
-ul {
+h4 {
+  font-size: 1.75em;
+  margin: 0;
+  padding: 0;
+}
+.edu {
   font-size: 1.5em;
   text-align: center;
 }
 
-.container {
+#imgdiv{
+    top: 1em;
+    left: 1em;
+    width: 100%;
+    height: 1em;
+}
 
+.server {
+  margin-top: 2%;
 }
 
 nav {
@@ -88,4 +160,23 @@ p {
 
 }
 
+
+.bar {
+  margin-left: 10%;
+  font-size: 1.3em;
+  padding: 0;
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
+}
+
+
+.outer-bar {
+    margin-left: 12%;
+    background: DarkSlateGray  ;
+    height: 1em;
+    border: 1px solid black;
+    border-radius: 200px;
+    overflow: hidden;
+
+}
 
