@@ -135,6 +135,7 @@ nav .buttons {
   margin-left: 7%;
   font-size: 1.3em;
   font-family: Chalkboard;
+  display: inline-block
 }
 
 .buttons {
