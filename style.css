@@ -123,26 +123,34 @@ h4 {
 }
 
 
-nav {
+.nav {
   background-color: DarkCyan;
   color: #EFEFEF;
-}
-
-nav .buttons {
-  float: center;
-  margin-top: 0%;
-  margin-right: 5%;
-  margin-left: 7%;
-  font-size: 1.3em;
-  font-family: Chalkboard;
-  display: inline-block
+  display: inline block;
 }
 
 .buttons {
-  float: center;
+
+  margin-top: 0%;
+  font-size: 1.3em;
+  font-family: Chalkboard;
+  text-align:center;
+
+
+
+
+}
+.buttons li {
+  display:inline;
 }
 
-nav .buttons .button {
+
+
+#aboutme-button, #education-button {
+
+}
+
+.buttons a {
   letter-spacing: 0.1em;
   padding: 0% 2.25em;
   -webkit-user-select: none;
@@ -150,6 +158,7 @@ nav .buttons .button {
   -ms-user-select: none;
   user-select: none;
   cursor: pointer;
+display:inline-block;
 }
 
 p {
