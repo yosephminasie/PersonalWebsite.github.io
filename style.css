@@ -42,6 +42,11 @@ html, body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+}
+
+.temp {
+  margin-right: 3%;
 }
 #experience:after {
   content: "";
@@ -113,6 +118,7 @@ h4 {
 .edu {
   font-size: 1.5em;
   text-align: center;
+  margin-right: 3%;
 }
 
 #imgdiv{
