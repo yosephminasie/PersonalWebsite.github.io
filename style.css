@@ -3,14 +3,14 @@ body {
   padding: 3%;
   background-color: DarkCyan;
 
-  
+
 }
 
 html, body {
-  margin: 0; 
-  height: 100%; 
-  overflow-y: hidden;
-  overflow-x: hidden;
+  margin: 0;
+  height: 94%;
+  overflow-y: auto;
+  overflow-x: auto;
 }
 
 #aboutme:after {
@@ -22,7 +22,7 @@ html, body {
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: -1; 
+  z-index: -1;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -37,7 +37,7 @@ html, body {
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: -1; 
+  z-index: -1;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -52,7 +52,7 @@ html, body {
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: -1; 
+  z-index: -1;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -67,7 +67,7 @@ html, body {
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: -1; 
+  z-index: -1;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -82,7 +82,7 @@ html, body {
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: -1; 
+  z-index: -1;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -125,7 +125,7 @@ h4 {
 
 nav {
   background-color: DarkCyan;
-  color: #EFEFEF; 
+  color: #EFEFEF;
 }
 
 nav .buttons {
@@ -148,7 +148,7 @@ nav .buttons .button {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 p {
@@ -183,4 +183,3 @@ p {
     overflow: hidden;
 
 }
-
